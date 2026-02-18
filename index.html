@@ -34,5 +34,37 @@
       }
     </style>
   </head>
-  <body class="min-h-screen max-w-md"></body>
+  <body class="min-h-screen max-w-md mx-auto bg-base-200">
+    <div class="logo mx-auto w-[200px] pt-32">
+      <img src="./assets/Logo-full.png" />
+    </div>
+    <div class="form pt-12">
+      <div
+        class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto rounded-2xl"
+      >
+        <div class="card-body">
+          <fieldset class="fieldset">
+            <label class="label text-neutral font-bold">Mobile Number</label>
+            <input
+              maxlength="11"
+              minlength="11"
+              type="text"
+              class="input rounded-full bg-base-200"
+              placeholder="Enter your 11 digit number"
+            />
+            <br />
+            <label class="label text-neutral font-bold">4 Digit Pin</label>
+            <input
+              type="password"
+              class="input rounded-full bg-base-200"
+              placeholder="Enter 4 Digit Pin"
+            />
+            <div></div>
+            <button class="btn btn-primary mt-4 rounded-full">Login</button>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <script src="./script/login.js"></script>
+  </body>
 </html>
